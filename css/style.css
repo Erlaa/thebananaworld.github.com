@@ -1,0 +1,236 @@
+@font-face {
+	font-family: kepler-bi;
+	src:url('keplerli.otf');
+}
+@font-face {
+	font-family: kepler-li;
+	src:url('kepler-bi.otf')
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100%;
+	min-width: 900px;
+}
+#header {
+	height: 70%;
+}
+#daniel {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	z-index: 3;
+	color: white;
+	font-size: 32px;
+	text-shadow: 0px 0px 5px black;
+}
+#headimg {
+	background-image: url(../img/header.png);
+	position: absolute;
+	height: 207px;
+	width: 900px;
+	left: 50%;
+	margin-left: -450px;
+}
+#hassan-index {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+	min-width: 900px;
+	min-height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image:url('../img/loading.gif');
+	box-shadow: 0px 0px 20px #383838; 
+	-moz-box-shadow: 0px 0px 5px #686868; 
+	-webkit-box-shadow: 0px 0px 40px #000000;
+}
+#kacper-index {
+	width: 500%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	z-index: 1;
+}
+#h1-index {
+	background-image:url('http://www.blackdogadvertising.com/miami-advertising-blog/wp-content/uploads/steve-jobs-holding-apple.jpg');
+	background-position: left top;
+	text-align: right;
+}
+#h1-index2 {
+	background-image:url('http://www.blackdogadvertising.com/miami-advertising-blog/wp-content/uploads/steve-jobs-holding-apple.jpg');
+	background-position: left top;
+	text-align: right;
+}
+#h2-index {
+	background-image:url('http://beta.images.theglobeandmail.com/archive/01368/WEB-johngreen31_1368355cl-8.jpg');
+	background-position: right bottom;
+}
+#h3-index {
+	background-image:url('http://lovedfromthestart.files.wordpress.com/2010/09/reginaspektor.jpg');
+	background-position: center;
+}
+#h4-index {
+	background-image:url('http://www.aktmanagement.com/artist/15/dan_brown.jpg');
+	background-position: right top;
+}
+.scroll {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-size: cover;
+	font-family: kepler-bi;
+}
+#nav-index {
+	max-width: 900px;
+	width: 100%;
+	margin: auto;
+	font-family: kepler-bi;
+	text-align: center;
+	margin-top: 20px;
+}
+#us-index {
+	height: 100px;
+	width: 400px;
+	background-color: #282828;
+	z-index: 3;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -20px;
+	color: white;
+	font-family: kepler-bi;
+	font-size: 75px;
+	text-align: center;
+	padding-top: 10px;
+}
+#us-arrow {
+	z-index: 2;
+	margin-top: -137px;
+	margin-left: -49px;
+	background-image: url('../img/tri.png');
+	background-size: 496px auto;
+	height: 220px;
+	width: 496px;
+}
+#wrapper-index {
+	min-height: 30%;
+	height: auto !important;
+	position: relative;
+	background-image: url('../img/wallpaper1.png')
+}
+#content-index {
+	height: auto;
+	width: 70%;
+	padding-bottom: 450px;
+	margin: auto;
+	padding-top: 180px;
+}
+.rundskugga {
+	box-shadow: 0px 0px 20px #383838; 
+	-moz-box-shadow: 0px 0px 20px #686868; 
+	-webkit-box-shadow: 0px 0px 20px #000000;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#bananaknights {
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.bananaknight {
+	height: 50%;
+	width: 50%;
+	position: relative;
+	overflow:hidden; 
+	background-size: cover;
+	background-position: center; 
+}
+.boxtext {
+	height: 100%;
+	width: 100%;
+	background: black;
+	position: absolute;
+	left: ;
+	font-size: 20px;
+	font-family: kepler-bi;
+	font-size: 50px;
+	color: white;
+	font-style: italic;
+	opacity: 0;
+}
+#joinShadow {
+	box-shadow: 0px 0px 300px black;
+	position: absolute; 
+	width: 35%; 
+	height: 200px; 
+	z-index: 1; 
+	background:;
+	left: 50%;
+	top: 380px;
+	opacity: 0;
+}
+#latestyoutube {
+	width: 100%;
+	position: relative;
+}
+#youtubevideo {
+	position: absolute;
+}
+#youtubearrow {
+	height: 120px;
+	width: 100px;
+	background-color: #282828;
+	z-index: 5;
+	color: white;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	font-family: kepler-li;
+	text-align: center;
+	font-size: 30px;
+	opacity: 1;
+}
+#youtubeArrowImg {
+	background-image: url('../img/tri.png');
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 140px;
+	position: absolute;
+	top: 107px;
+	left: -8px;
+	background-size: 116px auto;
+}
+#footer {
+	height: 300px;
+	background-image: url('../img/wood.jpg');
+	position: absolute; 
+	bottom: 0px;
+	width: 100%;
+	color: white;
+	font-family: kepler-bi;
+	font-size: 20px;
+}
+#copyright {
+	width: 70%; 
+	margin: auto; 
+	padding-top: 100px;
+	color: transparent;
+	text-shadow: 1px 1px 1px black;
+}
+.list {
+	height: 65px;
+	width: 100%;
+	background-image: url('../img/list.png');
+	background-size: 87px auto;
+	background-color: white;
+	box-shadow: 0px 0px 20px #383838; 
+	-moz-box-shadow: 0px 0px 20px #686868; 
+	-webkit-box-shadow: 0px 0px 40px #000000;
+}

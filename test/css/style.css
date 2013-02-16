@@ -1,0 +1,75 @@
+@font-face {
+	font-family: kepler-bi;
+	src:url('kepler-li.otf');
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	min-width: 900px;
+	height: 100%;
+}
+/*index-header*/
+#hassan {
+	height: 70%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	min-width: 900px;
+	min-height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image:url('../img/loading.gif');
+}
+/*index header bilderna*/
+#h1 {
+	background-image:url('http://www.blackdogadvertising.com/miami-advertising-blog/wp-content/uploads/steve-jobs-holding-apple.jpg');
+	background-size: 100% auto;
+	background-position: left bottom;
+}
+#h2 {
+	background-image:url('http://beta.images.theglobeandmail.com/archive/01368/WEB-johngreen31_1368355cl-8.jpg');
+	background-size: 100% auto;
+	background-position: right bottom;
+}
+#h3 {
+	background-image:url('http://lovedfromthestart.files.wordpress.com/2010/09/reginaspektor.jpg');
+	background-size: 100% auto;
+	background-position: 0px -200px;
+}
+#h4 {
+	background-image:url('http://www.aktmanagement.com/artist/15/dan_brown.jpg');
+	background-size: 100% auto;
+	background-position: 0px 0px;
+}
+#header {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	z-index: 2;
+	color: white;
+	font-size: 32px;
+}
+#nav {
+	width: 900px;
+	margin: auto;
+	text-shadow: 0px 0px 5px #686868;
+}
+#h1, #h2, #h3, #h4 {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#kacper {
+	width: 500%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	z-index: 2;
+	filter: alpha(opacity = 0);
+}
+#daniel {
+		background-image:url('../img/wallpaper1.png')
+}
+
